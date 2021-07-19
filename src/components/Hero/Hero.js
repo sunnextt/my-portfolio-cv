@@ -13,8 +13,8 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-A freelance software engineer specialized in
-both front-end and back-end.</SectionText>
+        A software engineer specialized in both front-end and back-end, experience creating custom websites through various software technologies such as JavaScript, typeScript, CSS, Redux, React.js and Node.js. 
+        </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
