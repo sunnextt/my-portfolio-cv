@@ -4,7 +4,14 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
+
+  const handleClick = () => {
+  location.href = "www.linkedin.com/in/samyink";
+  }
+
+
 const Hero = (props) => (
+
   <>
     <Section row nopadding>
       <LeftSection>
@@ -13,9 +20,9 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        A software engineer specialized in both front-end and back-end, experience creating custom websites through various software technologies such as JavaScript, typeScript, CSS, Redux, React.js and Node.js. 
+        A software engineer specialized in both front-end and back-end, experience creating custom websites through various software technologies such as JavaScript, typeScript, CSS, Redux, React.js, AWS and Node.js. 
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={handleClick}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

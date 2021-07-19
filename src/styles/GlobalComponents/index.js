@@ -165,7 +165,6 @@ export const SecondaryBtn = styled.button`
     line-height: 16px;
   }
 `
-
 export const ButtonBack = styled.div`
   width: ${({ alt }) => alt ? '150px' : '262px'};
   height: ${({ alt }) => alt ? '52px' : '64px'};
