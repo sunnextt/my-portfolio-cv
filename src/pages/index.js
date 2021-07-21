@@ -8,10 +8,15 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
+
+  const handleClick = () => {
+window.location.href = "#tech"
+}
+
   return (
     <Layout>
       <Section grid>
-        <Hero />
+        <Hero handleClick={handleClick}/>
         <BgAnimation />
       </Section>
       <Projects />
