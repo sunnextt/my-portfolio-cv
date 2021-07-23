@@ -9,8 +9,8 @@ import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
 
-  const handleClick = () => {
-window.location.href = "#tech"
+const handleClick = () => {
+window.location.href = "https://www.linkedin.com/in/samyink"
 }
 
   return (

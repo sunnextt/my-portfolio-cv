@@ -16,7 +16,7 @@ const Hero = (props) => (
         <SectionText>
           A software engineer specialized in both front-end and back-end, experience creating custom websites through various software technologies such as JavaScript, TypeScript, CSS, Redux, React.js, AWS and Node.js.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={props.handleClick}>Know More</Button>
       </LeftSection>
     </Section>
   </>
